@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
-import axios from "axios";
+import axios from "./axios";
 import { useEffect, useState,useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 import Pdf from "./pdf";

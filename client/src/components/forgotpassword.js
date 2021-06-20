@@ -1,7 +1,7 @@
 import { Link, useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useState } from "react"
-import axios from "axios";
+import axios from "./axios";
 toast.configure();
 export default function Forgotpassword(){
     let history = useHistory();

@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
 import React, { useContext,useState } from "react";
-import axios from "axios";
+import axios from "./axios";
 import { toast } from "react-toastify";
 import Pdf from "./pdf";
 import { Link, useHistory } from "react-router-dom";

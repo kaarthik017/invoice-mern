@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import Sidebar from "./sidebar";
 import React, { useEffect,useState,useContext } from "react";
 import Productdetails from "./productdetails";
-import axios from "axios";
+import axios from "./axios";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useHistory } from "react-router-dom"

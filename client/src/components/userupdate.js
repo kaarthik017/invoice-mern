@@ -1,6 +1,6 @@
 import { useEffect, useState,useContext } from "react";
 import { useHistory } from "react-router-dom";
-import axios from "axios";
+import axios from "./axios";
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
 import userContext from './userContext';

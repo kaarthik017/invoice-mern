@@ -1,7 +1,7 @@
 
   
 import React, { useState } from "react";
-import Sidebar from "./sidebar";
+
 
 export default function Productdetails(props) {
   let  inputList =  props.details

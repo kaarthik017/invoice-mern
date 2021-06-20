@@ -1,7 +1,7 @@
 import { useEffect, useState,useContext } from "react";
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
-import axios from "axios";
+import axios from "./axios";
 import { Link, useHistory } from "react-router-dom";
 import userContext from './userContext'
 import Errormessage from "./error";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import axios from "./axios";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
