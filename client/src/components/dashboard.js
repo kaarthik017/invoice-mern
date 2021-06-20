@@ -10,6 +10,7 @@ const apiUrl =  process.env.REACT_APP_API_URL;
         
 axios.interceptors.request.use(
   config => {
+    console.log(config);
     const { origin } = new URL(config.url);
     const allowedOrigins = [apiUrl];
     if (config.session && allowedOrigins.includes(origin)) {
