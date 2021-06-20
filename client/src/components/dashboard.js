@@ -1,13 +1,13 @@
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
-import axios from "axios";
+import axios from "./axios";
 import { useEffect, useState , useContext} from "react";
 import { useHistory } from "react-router-dom"
 import userContext from './userContext';
 import Errormessage from "./error";
 
 const apiUrl =  process.env.REACT_APP_API_URL;
-        
+
 axios.interceptors.request.use(
   config => {
     console.log(config);
